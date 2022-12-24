@@ -18,11 +18,7 @@ const getPosts = async (user) => {
 
 const getCommentsForEachPost = async (posts) => {
 	const res = await Promise.all(posts.map(post => 
-<<<<<<< HEAD
-    	fetch(`${url}/comments?postId=${post.id}&_limit=3`)  
-=======
     	fetch(`${url}/comments?postId=${post.id}&_limit=4`)  
->>>>>>> 940dea3cd978ea221f2b1ffdd549f16b1c1fb2ea
 	))
 	const postComments = await Promise.all(res.map(r => r.json()));
 
@@ -64,3 +60,7 @@ getBlogContent();
 const LoadAdds = () => {
 	console.log("Cargando los anuncios.")
 }
+
+//CAMBIOS DEL BACKEND
+//cambio 1
+//cambio 2
