@@ -64,3 +64,6 @@ const LoadAdds = () => {
 //CAMBIOS DEL BACKEND
 //cambio 1
 //cambio 2
+
+//empezamos a hacer los cambios para hacer un Squash
+//Cambios para videos 1
