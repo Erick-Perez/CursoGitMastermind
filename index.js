@@ -61,6 +61,10 @@ const LoadAdds = () => {
 	console.log("Cargando los anuncios.")
 }
 
+const AfiliadosRedireccionar = () =>{
+	//esto es para los afiliados
+}
+
 //CAMBIOS DEL BACKEND
 //cambio 1
 //cambio 2
